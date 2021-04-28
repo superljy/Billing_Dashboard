@@ -37,10 +37,6 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0;
-  padding: 0;
-}
 .header {
   background-color: #409eff;
   color: #fff;

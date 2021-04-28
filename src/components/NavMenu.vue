@@ -38,7 +38,14 @@
   </el-row>
 </template>
 
-<style scoped>
+<style>
+.el-aside {
+  height: calc(100vh - 60px);
+  background: rgb(84, 92, 100);
+}
+.el-menu {
+  border-right: 0;
+}
 .over-hide {
   overflow: hidden;
 }
