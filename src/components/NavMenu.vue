@@ -11,7 +11,8 @@
         unique-opened
         router
       >
-        <el-menu-item index="home">
+        <!-- element-ui使用index来控制路由的跳转,如需要路由跳转的记得在index的值前面加上/ -->
+        <el-menu-item index="/home">
           <template slot="title">
             <i class="el-icon-menu"></i>
             <span>首页</span>
@@ -27,10 +28,7 @@
             v-for="sub in item.sub"
             :key="sub.componentName"
           >
-            <el-menu-item
-              :index="sub.componentName"
-              v-text="sub.name"
-            ></el-menu-item>
+            <el-menu-item :index="sub.path" v-text="sub.name"></el-menu-item>
           </el-menu-item-group>
         </el-submenu>
       </el-menu>
@@ -48,6 +46,10 @@
 }
 .over-hide {
   overflow: hidden;
+}
+a.home {
+  text-decoration: none;
+  color: #fff;
 }
 </style>
 

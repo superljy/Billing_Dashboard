@@ -3,28 +3,67 @@ module.exports = [{
     id: 'billing',
     sub: [{
         name: '一月',
-        componentName: 'Jan'
+        componentName: 'Jan',
+        path: '/Fold/Jan'
     }, {
         name: '二月',
-        componentName: 'Feb'
+        componentName: 'Feb',
+        path: '/Fold/Feb'
     }, {
         name: '三月',
-        componentName: 'Mar'
+        componentName: 'Mar',
+        path: '/Fold/Mar'
     }, {
         name: '四月',
-        componentName: 'Apr'
+        componentName: 'Apr',
+        path: '/Fold/Apr'
+    }, {
+        name: '五月',
+        componentName: 'May',
+        path: '/Fold/May'
+    }, {
+        name: '六月',
+        componentName: 'Jun',
+        path: '/Fold/Jun'
+    }, {
+        name: '七月',
+        componentName: 'Jul',
+        path: '/Fold/Jul'
+    }, {
+        name: '八月',
+        componentName: 'Aug',
+        path: '/Fold/Aug'
+    }, {
+        name: '九月',
+        componentName: 'Sep',
+        path: '/Fold/Sep'
+    }, {
+        name: '十月',
+        componentName: 'Oct',
+        path: '/Fold/Oct'
+    }, {
+        name: '十一月',
+        componentName: 'Nov',
+        path: '/Fold/Nov'
+    }, {
+        name: '十二月',
+        componentName: 'Dec',
+        path: '/Fold/Dec'
     }]
 }, {
     name: '资源分布',
     id: 'resource',
     sub: [{
         name: '代理',
-        componentName: 'Proxies'
+        componentName: 'Proxies',
+        path: '/Fold/Proxies'
     }, {
         name: '服务器',
-        componentName: 'Servers'
+        componentName: 'Servers',
+        path: '/Fold/Servers'
     }, {
         name: '抢购组月费',
-        componentName: 'CookGroup'
+        componentName: 'CookGroup',
+        path: '/Fold/CookGroup'
     }]
 }]
